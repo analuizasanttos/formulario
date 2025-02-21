@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback do Usuário</title>
+</head>
+<body>
+    <h1>Feedback do Usuário</h1>
+
+<form action="">
+    <label for="nome">Digite seu nome (opcional):</label>
+    <br><input type="text" name="nome" id="nome"><br>
+    <label for="comentario">Escreva seu comentário (mínimo de 20 caracteres):</label>
+    <br> <textarea name="comentario" id="comentario" rows="4" cols="50" minlength="20"></textarea> <br>
+    <label for="satisfacao">Satisfação Geral (1 a 10):</label>
+    <br><input type="range" name="satisfacao" id="satisfacao" min="1" max="10" value="5" required><br>
+    <p><button type="submit">Enviar Feedback</button></p>
+
+</form>
+    
+</body>
+</html>

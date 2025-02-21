@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva de Sala</title>
+</head>
+<body>
+    <h1>Reserva de Sala</h1>
+
+<form action="">
+    <label for="datadareserva">Digite a data da reserva:</label>
+    <br><input type="date" name="datadareserva" id="datadareserva" required min="2025-02-21"><br>
+    <label for="horariodeinicio">Digite o horário de início:</label>
+    <br><input type="time" name="horariodeinicio" id="horariodeinicio" required><br>
+    <label for="horariodetermino">Digite o horário de término:</label>
+    <br><input type="time" name="horariodetermino" id="horariodetermino" required>
+    <br><label for="tipodesala">Selecione o tipo de sala:</label><br>
+    <select name="tipodesala" id="tipodesala" required>
+        <option value="reuniao">Reunião</option>
+        <option value="treinamento">Treinamento</option>
+        <option value="individual">Individual</option>
+    </select>
+    <br><label for="numdeparticipantes">Digite a quantidade de participantes:</label><br>
+    <input type="number" name="numdeparticipantes" id="numdeparticipantes" required min="1">
+    <p><button type="submit">Reservar Sala</button></p>
+   
+
+</form>
+</body>
+</html>
